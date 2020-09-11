@@ -73,14 +73,10 @@ function comparacaoPorTamanho(s1 : string, s2 : string) : number {
    return s1.length - s2.length;
 }
 
-function comparacaoAlfabetica(s1 : string, s2 : string) : number {
-    return s1.localeCompare(s2);
-}
-
 console.log('SORT ------------------------------');
 let s1 = nomes.sort(comparacaoPorTamanho);
 console.log(s1);
-let s2 = nomes.sort(comparacaoAlfabetica);
+let s2 = nomes.sort();
 console.log(s2);
 let s3 = nomes.sort((x, y) => x.length - y.length);
 console.log(s3);
