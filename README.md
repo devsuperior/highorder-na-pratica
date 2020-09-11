@@ -1,4 +1,4 @@
-# High order functions na prática com JavaScript / TypeScript
+# map, filter, reduce, sort na prática com JavaScript / TypeScript
 
 ## Instalar Node e NPM
 
