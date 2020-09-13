@@ -58,13 +58,16 @@ let r2 = list1.reduce(produto);
 //let r3 = list2.reduce(soma);
 let r4 = list2.reduce(soma, 0);
 let r5 = list2.reduce(produto, 1);
+let r6 = list1.reduce((x, y) => x + y); // reduce soma com lambda
+let r7 = list1.reduce((x, y) => x * y); // reduce produto com lambda
 
 console.log('REDUCE ------------------------------');
 console.log(r1);
 console.log(r2);
 console.log(r4);
 console.log(r5);
-
+console.log(r6);
+console.log(r7);
 
 // --------------------------------------------------------------------------------------------------------------------
 // sort: ordena a coleção conforme a função de comparação informada como parâmetro
